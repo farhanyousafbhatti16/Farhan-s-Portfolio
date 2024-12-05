@@ -138,25 +138,3 @@ a {
   }
 }
 
-
-.project-img {
-  width: 10%; /* Full width of the container */
-  height: 20px; /* Fixed height */
-  object-fit: cover; /* Maintain aspect ratio, crop if necessary */
-  border-radius: 5px; /* Optional: Rounded corners */
-}
-.gallery-img {
-  height: auto; /* Maintains aspect ratio */
-  max-height: 300px; /* Prevents overly large images */
-  object-fit: cover; /* Ensures images fit within their container */
-  transition: transform 0.3s, box-shadow 0.3s; /* For hover effect */
-}
-
-.gallery-img:hover {
-  transform: scale(1.05); /* Slight zoom effect */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-}
-
-.gallery-img.rounded {
-  border-radius: 10px; /* Smooth rounded corners */
-}
